@@ -1,0 +1,181 @@
+[gd_scene format=3 uid="uid://dp5t0khslr2w2"]
+
+[ext_resource type="Texture2D" uid="uid://bnc5nsnfi3ofl" path="res://圖標/btn_focus@4x.png" id="1_mnsrm"]
+[ext_resource type="Script" uid="uid://b4l7ck61qnre8" path="res://sence/test_1.gd" id="1_xbodo"]
+[ext_resource type="Texture2D" uid="uid://17klmjexd8un" path="res://圖標/btn_guide@4x.png" id="2_rn0cg"]
+[ext_resource type="Texture2D" uid="uid://b00dc21r7f0o2" path="res://圖標/btn_shop@4x.png" id="3_af8i2"]
+[ext_resource type="Texture2D" uid="uid://oh0b1k48jsul" path="res://cast/cast_01@4x.png" id="4_ykuab"]
+[ext_resource type="Texture2D" uid="uid://k8ttvw8awbl0" path="res://cast/cast_02@4x.png" id="5_xbodo"]
+[ext_resource type="Texture2D" uid="uid://5e5fjmwgiqmv" path="res://cast/cast_03@4x.png" id="6_1jp6o"]
+[ext_resource type="Texture2D" uid="uid://casonctsmhsln" path="res://cast/cast_04@4x.png" id="7_7fex3"]
+[ext_resource type="Texture2D" uid="uid://c17cqm4lb1qkp" path="res://cast/cast_05@4x.png" id="8_eu2p0"]
+[ext_resource type="Texture2D" uid="uid://c7nc36xsnvg2g" path="res://cast/cast_06@4x.png" id="9_0snft"]
+[ext_resource type="Texture2D" uid="uid://bygn2p6oqov2w" path="res://cast/cast_07@4x.png" id="10_xu23l"]
+[ext_resource type="Texture2D" uid="uid://7knxuciabo6q" path="res://cast/cast_08@4x.png" id="11_e0ffm"]
+[ext_resource type="Texture2D" uid="uid://btk4tajeovit5" path="res://cast/cast_09@4x.png" id="12_8cqkg"]
+[ext_resource type="Texture2D" uid="uid://dke48aflx47fu" path="res://cast/cast_10@4x.png" id="13_nfdvn"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_ie5d1"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("4_ykuab")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_xbodo")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_1jp6o")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_7fex3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_eu2p0")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_0snft")
+}, {
+"duration": 1.0,
+"texture": ExtResource("10_xu23l")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_e0ffm")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_8cqkg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_nfdvn")
+}],
+"loop": 1,
+"name": &"hook",
+"speed": 17.0
+}]
+
+[node name="Control" type="Node2D" unique_id=50790537]
+script = ExtResource("1_xbodo")
+
+[node name="CenterContainer" type="CenterContainer" parent="." unique_id=490337070]
+visible = false
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -197.00002
+offset_top = 605.0
+offset_right = 250.99998
+offset_bottom = 1091.0
+grow_horizontal = 2
+grow_vertical = 0
+scale = Vector2(3.8, 1)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=482371049]
+layout_mode = 2
+theme_override_constants/separation = 21
+
+[node name="TextureButton" type="TextureButton" parent="CenterContainer/VBoxContainer" unique_id=1377746918]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 2
+texture_normal = ExtResource("1_mnsrm")
+
+[node name="TextureButton2" type="TextureButton" parent="CenterContainer/VBoxContainer" unique_id=1749418603]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+texture_normal = ExtResource("2_rn0cg")
+
+[node name="TextureButton3" type="TextureButton" parent="CenterContainer/VBoxContainer" unique_id=1685204486]
+custom_minimum_size = Vector2(200, 50)
+layout_mode = 2
+texture_normal = ExtResource("3_af8i2")
+
+[node name="an_fish" type="AnimatedSprite2D" parent="." unique_id=404029139]
+visible = false
+position = Vector2(831, 410)
+sprite_frames = SubResource("SpriteFrames_ie5d1")
+animation = &"hook"
+frame_progress = 0.7245111
+
+[node name="Control" type="Control" parent="." unique_id=101088606]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -2.0
+offset_right = 38.0
+offset_bottom = 40.0
+
+[node name="Label" type="Label" parent="Control" unique_id=718145266]
+layout_mode = 0
+offset_left = 161.0
+offset_top = 42.0
+offset_right = 248.0
+offset_bottom = 65.0
+text = "this is lable"
+
+[node name="add_time" type="Button" parent="Control" unique_id=180588248]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 83.0
+offset_top = 72.0
+offset_right = 183.0
+offset_bottom = 172.0
+text = "+"
+
+[node name="mines_time" type="Button" parent="Control" unique_id=195491798]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 0
+offset_left = 184.0
+offset_top = 72.0
+offset_right = 284.0
+offset_bottom = 172.0
+text = "-"
+
+[node name="start" type="Button" parent="Control" unique_id=263240708]
+layout_mode = 0
+offset_left = 158.0
+offset_top = 180.0
+offset_right = 203.0
+offset_bottom = 211.0
+text = "start
+"
+
+[node name="Timer" type="Timer" parent="Control" unique_id=1675603502]
+
+[node name="coin_timer" type="Timer" parent="Control" unique_id=1171258229]
+wait_time = 7.0
+
+[node name="Panel" type="Panel" parent="Control" unique_id=1045514425]
+custom_minimum_size = Vector2(100, 20)
+custom_maximum_size = Vector2(-1, 20)
+layout_mode = 0
+offset_left = 302.0
+offset_top = 71.0
+offset_right = 402.0
+offset_bottom = 91.0
+
+[node name="coin_counter" type="Label" parent="Control/Panel" unique_id=1114979207]
+custom_minimum_size = Vector2(100, 100)
+layout_mode = 1
+offset_right = 100.0
+offset_bottom = 100.0
+text = "🪙"
+
+[node name="erase_save" type="Button" parent="Control/Panel" unique_id=748712975]
+layout_mode = 1
+anchors_preset = 1
+anchor_left = 1.0
+anchor_right = 1.0
+offset_left = -75.0
+offset_top = 40.0
+offset_right = -24.0
+offset_bottom = 71.0
+grow_horizontal = 0
+text = "erase
+"
+
+[connection signal="pressed" from="Control/add_time" to="." method="_on_add_time_pressed"]
+[connection signal="pressed" from="Control/mines_time" to="." method="_on_mines_time_pressed"]
+[connection signal="pressed" from="Control/start" to="." method="_on_start_pressed"]
+[connection signal="timeout" from="Control/Timer" to="." method="_on_timer_timeout"]
+[connection signal="timeout" from="Control/coin_timer" to="." method="_on_coin_timer_timeout"]
+[connection signal="pressed" from="Control/Panel/erase_save" to="." method="_on_erase_save_pressed"]
