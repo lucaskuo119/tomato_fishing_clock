@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://dusugijfe6dij"]
+
+[ext_resource type="Texture2D" uid="uid://4rh6wa361cjc" path="res://focus_ui_sheet.png" id="1_p5w8r"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_texfu"]
+atlas = ExtResource("1_p5w8r")
+region = Rect2(180, 68, 115, 60)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_f1574"]
+atlas = ExtResource("1_p5w8r")
+region = Rect2(32, 64, 121, 64)
+
+[node name="return_button" type="TextureButton" unique_id=1692614707]
+offset_right = 40.0
+offset_bottom = 40.0
+texture_normal = SubResource("AtlasTexture_texfu")
+texture_pressed = SubResource("AtlasTexture_f1574")

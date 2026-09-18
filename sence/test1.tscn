@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://dp5t0khslr2w2"]
 
-[ext_resource type="Texture2D" uid="uid://bnc5nsnfi3ofl" path="res://圖標/btn_focus@4x.png" id="1_mnsrm"]
+[ext_resource type="Texture2D" uid="uid://bnc5nsnfi3ofl" path="res://圖標/主畫面圖標/btn_focus@4x.png" id="1_mnsrm"]
 [ext_resource type="Script" uid="uid://b4l7ck61qnre8" path="res://sence/test_1.gd" id="1_xbodo"]
-[ext_resource type="Texture2D" uid="uid://17klmjexd8un" path="res://圖標/btn_guide@4x.png" id="2_rn0cg"]
-[ext_resource type="Texture2D" uid="uid://b00dc21r7f0o2" path="res://圖標/btn_shop@4x.png" id="3_af8i2"]
+[ext_resource type="Texture2D" uid="uid://17klmjexd8un" path="res://圖標/主畫面圖標/btn_guide@4x.png" id="2_rn0cg"]
+[ext_resource type="Texture2D" uid="uid://b00dc21r7f0o2" path="res://圖標/主畫面圖標/btn_shop@4x.png" id="3_af8i2"]
 [ext_resource type="Texture2D" uid="uid://oh0b1k48jsul" path="res://cast/cast_01@4x.png" id="4_ykuab"]
 [ext_resource type="Texture2D" uid="uid://k8ttvw8awbl0" path="res://cast/cast_02@4x.png" id="5_xbodo"]
 [ext_resource type="Texture2D" uid="uid://5e5fjmwgiqmv" path="res://cast/cast_03@4x.png" id="6_1jp6o"]
@@ -14,6 +14,34 @@
 [ext_resource type="Texture2D" uid="uid://7knxuciabo6q" path="res://cast/cast_08@4x.png" id="11_e0ffm"]
 [ext_resource type="Texture2D" uid="uid://btk4tajeovit5" path="res://cast/cast_09@4x.png" id="12_8cqkg"]
 [ext_resource type="Texture2D" uid="uid://dke48aflx47fu" path="res://cast/cast_10@4x.png" id="13_nfdvn"]
+[ext_resource type="Texture2D" uid="uid://4rh6wa361cjc" path="res://focus_ui_sheet.png" id="15_1jp6o"]
+[ext_resource type="Texture2D" uid="uid://dus744d75s3bn" path="res://圖標/focus/fbtn_plus5_pressed@4x.png" id="15_bd54o"]
+[ext_resource type="PackedScene" uid="uid://cc7yfvseqhnx" path="res://sence/BUTTON/focus_ui_sheet.tscn" id="15_eu2p0"]
+[ext_resource type="PackedScene" uid="uid://dusugijfe6dij" path="res://sence/BUTTON/return_button.tscn" id="16_7fex3"]
+[ext_resource type="Texture2D" uid="uid://c6ejnaslbxnrg" path="res://圖標/focus/fbtn_plus5_disabled@4x.png" id="16_gcbng"]
+[ext_resource type="Texture2D" uid="uid://bmoryn8fqb5rx" path="res://圖標/buttons/fbtn_plus5_disabled@4x.png" id="17_q0vvl"]
+[ext_resource type="Texture2D" uid="uid://s5ts0jbeae5f" path="res://圖標/focus/fbtn_minus5_pressed@4x.png" id="17_qi7xi"]
+[ext_resource type="Texture2D" uid="uid://cix0p6m0747dd" path="res://圖標/focus/fbtn_minus5_disabled@4x.png" id="18_bd54o"]
+[ext_resource type="Texture2D" uid="uid://cqb6vus45qfuf" path="res://focus_ui_idle.png" id="18_xu23l"]
+[ext_resource type="Texture2D" uid="uid://bqfmm6h2ibjw8" path="res://圖標/focus/panel_gear@4x.png" id="19_e0ffm"]
+[ext_resource type="Texture2D" uid="uid://0i5tke3ovd7h" path="res://圖標/focus/fbtn_start@4x.png" id="19_qi7xi"]
+[ext_resource type="Texture2D" uid="uid://cvhegyxunhcph" path="res://圖標/buttons/fbtn_minus5_disabled@4x.png" id="20_3oq0u"]
+[ext_resource type="Texture2D" uid="uid://3npjurjitsxa" path="res://圖標/focus/fbtn_start_pressed@4x.png" id="20_b08b3"]
+[ext_resource type="Texture2D" uid="uid://cc7q11fxgs262" path="res://圖標/focus/fbtn_15_off_pressed@4x.png" id="21_8nsnt"]
+[ext_resource type="Texture2D" uid="uid://4ysf6m2novlv" path="res://圖標/focus/fbtn_15_off_disabled@4x.png" id="22_fbiyp"]
+[ext_resource type="Texture2D" uid="uid://bq2gxtqurbltt" path="res://圖標/focus/fbtn_25_off_pressed@4x.png" id="23_wd4jo"]
+[ext_resource type="Texture2D" uid="uid://hvbq482a53c6" path="res://圖標/focus/fbtn_lock_running@4x.png" id="23_xcsl1"]
+[ext_resource type="Texture2D" uid="uid://6irsquh6fkwr" path="res://圖標/focus/coin_icon@4x.png" id="24_lcfjl"]
+[ext_resource type="Texture2D" uid="uid://ba02vkb6b2kco" path="res://圖標/focus/fbtn_25_off_disabled@4x.png" id="24_q0vvl"]
+[ext_resource type="Texture2D" uid="uid://cxf0koab7ku6l" path="res://圖標/focus/fbtn_45_off_pressed@4x.png" id="25_3oq0u"]
+[ext_resource type="Texture2D" uid="uid://r3261lr7dqax" path="res://圖標/focus/panel_pill@4x.png" id="25_yhdlc"]
+[ext_resource type="Texture2D" uid="uid://b4xmhjwyntvll" path="res://圖標/focus/fbtn_45_off_disabled@4x.png" id="26_xcsl1"]
+[ext_resource type="Texture2D" uid="uid://qu2wcutcetvr" path="res://圖標/focus/fbtn_60_off_pressed@4x.png" id="27_k3jc1"]
+[ext_resource type="Texture2D" uid="uid://d22iwhyyfe1nc" path="res://圖標/focus/fbtn_60_off_disabled@4x.png" id="28_2vwlj"]
+[ext_resource type="Texture2D" uid="uid://ceg8xib7i01dy" path="res://圖標/focus/fbtn_state_idle@4x.png" id="28_lcfjl"]
+[ext_resource type="Texture2D" uid="uid://s16jf270y1qr" path="res://圖標/focus/fbtn_state_paused@4x.png" id="29_yhdlc"]
+[ext_resource type="Texture2D" uid="uid://slwfvr15c16b" path="res://圖標/focus/panel_modal@4x.png" id="36_fbiyp"]
+[ext_resource type="Texture2D" uid="uid://c1mcv1sigs12w" path="res://圖標/主畫面圖標/bg_lake_dock@4x.png" id="42_xcsl1"]
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_ie5d1"]
 animations = [{
@@ -53,7 +81,16 @@ animations = [{
 "speed": 17.0
 }]
 
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_k3jc1"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ub53g"]
+atlas = ExtResource("15_1jp6o")
+region = Rect2(36, 196, 180, 60)
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_xcsl1"]
+
 [node name="Control" type="Node2D" unique_id=50790537]
+position = Vector2(12, -264)
 script = ExtResource("1_xbodo")
 
 [node name="CenterContainer" type="CenterContainer" parent="." unique_id=490337070]
@@ -72,6 +109,7 @@ grow_vertical = 0
 scale = Vector2(3.8, 1)
 
 [node name="VBoxContainer" type="VBoxContainer" parent="CenterContainer" unique_id=482371049]
+visible = false
 layout_mode = 2
 theme_override_constants/separation = 21
 
@@ -103,41 +141,76 @@ anchors_preset = 0
 offset_left = -2.0
 offset_right = 38.0
 offset_bottom = 40.0
+metadata/_edit_use_anchors_ = true
 
 [node name="Label" type="Label" parent="Control" unique_id=718145266]
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 2.975
+anchor_top = 11.574999
+anchor_right = 7.825
+anchor_bottom = 12.799998
 offset_left = 161.0
 offset_top = 42.0
 offset_right = 248.0
 offset_bottom = 65.0
+scale = Vector2(0.92226255, 1.0042924)
+theme_override_font_sizes/font_size = 52
 text = "this is lable"
+metadata/_edit_use_anchors_ = true
 
-[node name="add_time" type="Button" parent="Control" unique_id=180588248]
+[node name="add_time" type="TextureButton" parent="Control" unique_id=815876168]
 custom_minimum_size = Vector2(100, 100)
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 11.0
+anchor_top = 10.6
+anchor_right = 13.3
+anchor_bottom = 12.5
 offset_left = 83.0
 offset_top = 72.0
 offset_right = 183.0
 offset_bottom = 172.0
-text = "+"
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("15_bd54o")
+texture_pressed = ExtResource("16_gcbng")
+texture_disabled = ExtResource("17_q0vvl")
+metadata/_edit_use_anchors_ = true
 
-[node name="mines_time" type="Button" parent="Control" unique_id=195491798]
+[node name="mines_time" type="TextureButton" parent="Control" unique_id=473260059]
 custom_minimum_size = Vector2(100, 100)
-layout_mode = 0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -2.725
+anchor_top = 10.6
+anchor_right = -0.425
+anchor_bottom = 12.5
 offset_left = 184.0
 offset_top = 72.0
 offset_right = 284.0
 offset_bottom = 172.0
-text = "-"
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("17_qi7xi")
+texture_pressed = ExtResource("18_bd54o")
+texture_disabled = ExtResource("20_3oq0u")
+metadata/_edit_use_anchors_ = true
 
-[node name="start" type="Button" parent="Control" unique_id=263240708]
-layout_mode = 0
+[node name="start" type="TextureButton" parent="Control" unique_id=238611809]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = -2.1
+anchor_top = 12.825
+anchor_right = 13.775
+anchor_bottom = 15.85
 offset_left = 158.0
 offset_top = 180.0
 offset_right = 203.0
 offset_bottom = 211.0
-text = "start
-"
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("19_qi7xi")
+texture_pressed = ExtResource("20_b08b3")
+texture_disabled = ExtResource("23_xcsl1")
+metadata/_edit_use_anchors_ = true
 
 [node name="Timer" type="Timer" parent="Control" unique_id=1675603502]
 
@@ -145,22 +218,40 @@ text = "start
 wait_time = 7.0
 
 [node name="Panel" type="Panel" parent="Control" unique_id=1045514425]
+z_index = 1
 custom_minimum_size = Vector2(100, 20)
 custom_maximum_size = Vector2(-1, 20)
-layout_mode = 0
-offset_left = 302.0
-offset_top = 71.0
-offset_right = 402.0
-offset_bottom = 91.0
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 15.575
+anchor_top = 5.5
+anchor_right = 15.575
+anchor_bottom = 5.5
+offset_left = 271.99994
+offset_top = 73.0
+offset_right = 371.99994
+offset_bottom = 93.0
+scale = Vector2(2.0468535, 2.2154593)
+theme_override_styles/panel = SubResource("StyleBoxEmpty_k3jc1")
+metadata/_edit_use_anchors_ = true
 
 [node name="coin_counter" type="Label" parent="Control/Panel" unique_id=1114979207]
 custom_minimum_size = Vector2(100, 100)
 layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.36153075
+anchor_top = 0.010901833
+anchor_right = 0.46153077
+anchor_bottom = 0.51090163
 offset_right = 100.0
 offset_bottom = 100.0
+scale = Vector2(0.3337462, 0.28160155)
+theme_override_font_sizes/font_size = 56
 text = "🪙"
+metadata/_edit_use_anchors_ = true
 
 [node name="erase_save" type="Button" parent="Control/Panel" unique_id=748712975]
+visible = false
 layout_mode = 1
 anchors_preset = 1
 anchor_left = 1.0
@@ -172,6 +263,173 @@ offset_bottom = 71.0
 grow_horizontal = 0
 text = "erase
 "
+metadata/_edit_use_anchors_ = true
+
+[node name="15minadd" type="TextureButton" parent="Control" unique_id=1722841590]
+layout_mode = 0
+offset_left = 73.0
+offset_top = 615.0
+offset_right = 329.0
+offset_bottom = 751.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("21_8nsnt")
+texture_pressed = ExtResource("22_fbiyp")
+texture_disabled = ExtResource("22_fbiyp")
+
+[node name="25minadd" type="TextureButton" parent="Control" unique_id=640028109]
+layout_mode = 0
+offset_left = 214.0
+offset_top = 615.0
+offset_right = 470.0
+offset_bottom = 751.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("23_wd4jo")
+texture_pressed = ExtResource("24_q0vvl")
+texture_disabled = ExtResource("24_q0vvl")
+
+[node name="45minadd" type="TextureButton" parent="Control" unique_id=1554434570]
+layout_mode = 0
+offset_left = 355.0
+offset_top = 615.0
+offset_right = 611.0
+offset_bottom = 751.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("25_3oq0u")
+texture_pressed = ExtResource("26_xcsl1")
+texture_disabled = ExtResource("26_xcsl1")
+
+[node name="60minadd" type="TextureButton" parent="Control" unique_id=38120618]
+layout_mode = 0
+offset_left = 495.0
+offset_top = 615.0
+offset_right = 751.0
+offset_bottom = 751.0
+scale = Vector2(0.5, 0.5)
+texture_normal = ExtResource("27_k3jc1")
+texture_pressed = ExtResource("28_2vwlj")
+texture_disabled = ExtResource("28_2vwlj")
+
+[node name="return_button" parent="." unique_id=1692614707 instance=ExtResource("16_7fex3")]
+offset_left = 43.0
+offset_top = 301.0
+offset_right = 158.0
+offset_bottom = 361.0
+metadata/_edit_use_anchors_ = true
+
+[node name="return_button2" parent="." unique_id=921405296 instance=ExtResource("16_7fex3")]
+visible = false
+metadata/_edit_use_anchors_ = true
+
+[node name="PAUSE_button" type="TextureButton" parent="." unique_id=1141517111]
+visible = false
+offset_left = 189.0
+offset_top = -90.0
+offset_right = 369.0
+offset_bottom = -30.0
+texture_normal = SubResource("AtlasTexture_ub53g")
+
+[node name="FocusUiSheet" parent="." unique_id=1990964986 instance=ExtResource("15_eu2p0")]
+position = Vector2(786, 315)
+
+[node name="FocusUiIdle" type="Sprite2D" parent="." unique_id=1965410951]
+position = Vector2(545, 1269.9999)
+scale = Vector2(0.4652778, 0.47145063)
+texture = ExtResource("18_xu23l")
+
+[node name="FbtnStateIdle_4x" type="Sprite2D" parent="." unique_id=1167795831]
+position = Vector2(786, 315)
+scale = Vector2(0.4787234, 0.44117647)
+texture = ExtResource("28_lcfjl")
+
+[node name="FbtnStatePaused_4x" type="Sprite2D" parent="." unique_id=865248729]
+position = Vector2(786, 315)
+scale = Vector2(0.4787234, 0.44117647)
+texture = ExtResource("29_yhdlc")
+
+[node name="ProgressBar" type="ProgressBar" parent="." unique_id=21841999]
+modulate = Color(0.7529412, 0.6666667, 1, 1)
+z_index = 1
+custom_minimum_size = Vector2(360, 0)
+offset_left = 714.0
+offset_top = 765.0
+offset_right = 1074.0
+offset_bottom = 792.0
+
+[node name="backroundUI" type="Control" parent="." unique_id=1304803203]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="TextureRect" type="TextureRect" parent="backroundUI" unique_id=1870887034]
+z_index = -1
+layout_mode = 0
+offset_left = 32.0
+offset_top = 383.0
+offset_right = 664.0
+offset_bottom = 811.0
+scale = Vector2(1.0051143, 1.0144185)
+mouse_filter = 2
+texture = ExtResource("19_e0ffm")
+expand_mode = 1
+
+[node name="TextureRect2" type="TextureRect" parent="backroundUI" unique_id=196385394]
+z_index = 1
+layout_mode = 0
+offset_left = 902.0
+offset_top = 290.0
+offset_right = 1006.0
+offset_bottom = 394.00003
+scale = Vector2(0.47816372, 0.4956694)
+texture = ExtResource("24_lcfjl")
+expand_mode = 5
+
+[node name="TextureRect3" type="TextureRect" parent="backroundUI" unique_id=934105913]
+layout_mode = 0
+offset_left = 881.00006
+offset_top = 277.99997
+offset_right = 1177.0
+offset_bottom = 413.99997
+scale = Vector2(0.7334974, 0.5772587)
+texture = ExtResource("25_yhdlc")
+
+[node name="PanelModal_4x" type="Sprite2D" parent="backroundUI" unique_id=2047055595]
+position = Vector2(896, 466)
+scale = Vector2(0.31056896, -0.15746318)
+texture = ExtResource("36_fbiyp")
+
+[node name="PanelModal_4x2" type="Sprite2D" parent="backroundUI" unique_id=914492452]
+position = Vector2(896, 644)
+scale = Vector2(0.31056896, -0.15746318)
+texture = ExtResource("36_fbiyp")
+
+[node name="PanelModal_4x3" type="Sprite2D" parent="backroundUI" unique_id=1574905233]
+position = Vector2(896, 778)
+scale = Vector2(0.3105498, 0.073152915)
+texture = ExtResource("36_fbiyp")
+
+[node name="Panel" type="Panel" parent="backroundUI" unique_id=1474234943]
+z_index = -2
+layout_mode = 0
+offset_left = -12.0
+offset_top = 264.0
+offset_right = 28.0
+offset_bottom = 304.0
+scale = Vector2(28.760567, 16.229816)
+mouse_filter = 2
+theme_override_styles/panel = SubResource("StyleBoxEmpty_xcsl1")
+
+[node name="TextureRect" type="TextureRect" parent="backroundUI/Panel" unique_id=1682701974]
+z_index = -1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("42_xcsl1")
+expand_mode = 1
 
 [connection signal="pressed" from="Control/add_time" to="." method="_on_add_time_pressed"]
 [connection signal="pressed" from="Control/mines_time" to="." method="_on_mines_time_pressed"]
@@ -179,3 +437,8 @@ text = "erase
 [connection signal="timeout" from="Control/Timer" to="." method="_on_timer_timeout"]
 [connection signal="timeout" from="Control/coin_timer" to="." method="_on_coin_timer_timeout"]
 [connection signal="pressed" from="Control/Panel/erase_save" to="." method="_on_erase_save_pressed"]
+[connection signal="pressed" from="Control/15minadd" to="." method="one_five_on_minadd_pressed"]
+[connection signal="pressed" from="Control/25minadd" to="." method="two_five_on_minadd_pressed"]
+[connection signal="pressed" from="Control/45minadd" to="." method="fore_five_on_minadd_pressed"]
+[connection signal="pressed" from="Control/60minadd" to="." method="six_O_on_minadd_pressed"]
+[connection signal="pressed" from="return_button" to="." method="_on_return_button_pressed"]

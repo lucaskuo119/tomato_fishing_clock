@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://cc7yfvseqhnx"]
+
+[ext_resource type="Texture2D" uid="uid://4rh6wa361cjc" path="res://focus_ui_sheet.png" id="1_pcgut"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_nfdvn"]
+atlas = ExtResource("1_pcgut")
+region = Rect2(1212, 68, 180, 60)
+
+[node name="FocusUiSheet" type="Sprite2D" unique_id=1990964986]
+texture = SubResource("AtlasTexture_nfdvn")
